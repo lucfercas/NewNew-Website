@@ -106,6 +106,13 @@ p {
     opacity: 1;
 }
 
+#clock {
+    display: flex;
+    padding-top: 20px;
+    font-family: 'Rubik';
+    font-size: 12px;
+}
+
 footer {
     display: flex;
     justify-content: center;
