@@ -1,35 +1,118 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
-section {
-    height: 100vh;
+/* body {
+    background-color: darkorange;
+} */
+
+body {
+    background-color: lightgray;  
+  }
+
+  canvas{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+}
+  .particles {
+    width: 100%;
+    height: 100%;
+  }
+
+main {
+    display: block;
+    max-width: 900px;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    font-size: 7vw;
+    padding: auto;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+h1,
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Rubik';
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 2px;
+    font-size: 1.8vw;
+}
+
+
+
+.btn:hover {
+    background-color: #555555;
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    nav button {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+}
+
+#about,
+#why-fac,
+#why-sd {
+    display: none;
+}
+
+.icon {
+    position: relative;
+    width: 20%;
+    min-width: 60px;
+}
+
+.icon img.icon-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.icon:hover img.icon-hover {
+    opacity: 1;
+}
+
+footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
+    padding-top: 0;
+
 }
 
-.container {
-    scroll-snap-type: y proximity;
-    overflow-y: scroll;
-    height: 100vh;
-}
-
-.one {
-    background: rgb(36, 164, 138);
-}
-
-.two {
-    background: rgb(211, 79, 79);
-}
-
-.three {
-    background: rgb(67, 91, 175);
-}
-
-.four {
-    background: lightsalmon;
+footer p {
+    font-size: 12px;
 }

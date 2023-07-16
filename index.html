@@ -1,26 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        <section class="one">
-            <h1>First Page</h1>
+    <main>
+        <header>
+            <div class="identity">
+                <div class="icon">
+                    <img class="icon-main" src="lucy1.svg" alt="8-bit inspired character of Lucy">
+                    <img class="icon-hover" src="lucy2.svg" alt="8-bit inspired character of Lucy">
+                </div>
+                <h1>LUCÍA <i>(Lucy)</i> FERNANDEZ</h1>
+            </div>
+        </header>
+        <nav>
+            <button id="info1" class="btn">About</button>
+            <button id="info2" class="btn">Why FAC</button>
+            <button id="info3" class="btn">Why SoftwareDev</button>
+            <button id="game" class="btn">Play Game</button>
+            <button id="git-logo" class="btn"><img src="github.svg" alt="Github icon" width="20px"
+                    id="github-icon"></button>
+        </nav>
+        <section class="container">
+            <div id="about" class="text-container">
+                <h2>A bit about me</h2>
+                <p>Hi! 👋 I’m Lucía, and it is very nice to meet you!</p>
+
+                <p> Ever since I can remember I have enjoyed pulling things apart and learning how they work, from
+                    puzzles, little games to cameras, old school cinema techniques and generative art. Now I am
+                    interested in software.
+
+                    Creativity rules my life, and solving problems and helping people keep me going.</p>
+
+                <p> I grew up in a coastal town in sunny Andalusia, but I have lived in the UK for the past 7 years.
+                    What was meant to be a year abroad to work and learn English, turned into the adventure of my
+                    lifetime. I started in Manchester, to then move into London, where I’ve been living since.
+
+                    During that time, not being able to decide where to focus my career efforts, I have spent my years
+                    between hospitality roles, up until I decided to go to university and pursue a creative path:
+                    design.</p>
+                
+
+                <p><strong>The start of a coding journey…</strong></p>
+
+                <p> During my studies I came across creative coding using Arduino boards, and Processing, which blew my
+                    mind. The vast creative possibilities inspired me to want to know more about different applications
+                    of code in real life, and to discover new technologies. This coding affair felt good but brief, and
+                    the idea of becoming somehow involved with coding in a day to day basis sparked.
+
+                    While I loved my degree, being a recent graduate without a support network in a time of crisis has
+                    been tough, which is why I had to go back to the hospitality industry. Pairing that with my desire
+                    of improvement made me join this new and exciting journey that it is learning to code properly. </p>
+            </div>
+
+            <div id="why-fac" class="text-container">
+                <h2>Why FAC?</h2>
+                <p>Definitely the people. During my time attending the support group I had the chance not only to
+                    experience how peer learning is offered and encouraged, but also to appreciate the support mentors
+                    and past members of FAC gave us. I have learnt plenty from other applicants, and I have also had the
+                    chance to help and encourage my peers when needed. I don’t think I would have learnt as much as I
+                    have in a short period of time if I had to go through this application alone, without being able to
+                    discuss ideas, solutions and ask questions. Based on these past months, FAC is the place to be.</p>
+
+            </div>
+
+            <div id="why-sd" class="text-container">
+                <h2>Why a career in software development?</h2>
+                <p>Software development is an ever evolving career, which means continuous learning and development of
+                    skills. It seems like there is always something new to learn, which offers the opportunity to grow
+                    and keeps your brain challenged, which I find really attractive. I also enjoy the idea of applying
+                    my innate creativity to solve problems and help people while working collectively. I found myself
+                    performing and enjoying myself more when I have taken part in group projects. I have recently learnt
+                    about ways in which coding impacts society and the fact that it can help people’s lives. The chance
+                    to work with conscious companies in exciting roles inspired me to pursue this course and career
+                    path. And last, I am truly interested in the career opportunities software development is offering,
+                    it is an exciting time to be involved in the tech industry!</p>
+
+            </div>
         </section>
-        <section class="two">
-            <h1>Second Page</h1>
-        </section>
-        <section class="three">
-            <h1>Third Page</h1>
-        </section>
-        <section class="four">
-            <h1>Fourth Page</h1>
-        </section>
-    </div>
+    </main>
+    <footer>
+        <p id="message">Thanks for stopping by! © Lucia Fernandez 2023</p>
+    </footer>
+    <canvas id="js-particles" class="particles" width="1280" height="1280"></canvas>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
+
 </html>
