@@ -5,7 +5,7 @@ const whyFacBtn = document.getElementById('info2');
 const whySdBtn = document.getElementById('info3');
 
 const gameBtn = document.getElementById("game");
-const GitHubBtn = document.getElementById("git-logo")
+const GitHubBtn = document.getElementById("repo")
 
 const aboutDiv = document.getElementById('about');
 const whyFacDiv = document.getElementById('why-fac');
