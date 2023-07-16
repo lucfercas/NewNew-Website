@@ -49,7 +49,7 @@ whySdBtn.addEventListener('click', () => {
 
 const PARTICLE_QUANT = 1500;
 const BOUNCE = -1;
-const PARTICLE_COLOR = 'black';
+const PARTICLE_COLOR = 'green';
 const ARC_RADIUS = 2;
 
 class Particles {
