@@ -16,15 +16,15 @@ gameBtn.addEventListener("click", () => {
 });
 
 function GoToGame() {
-    window.location = "https://lucfercas.github.io/NEW-Game/";
+    window.location = "https://lucfercas.github.io/NEW-Game/", '_blank';
 }
 
 GitHubBtn.addEventListener("click", () => {
-    GoToRepos();
+    GoToRepo();
 });
 
-function GoToRepos() {
-    window.open("https://github.com/lucfercas", '_blank');
+function GoToRepo() {
+    window.open("https://github.com/lucfercas/NewNew-Website", '_blank');
 }
 
 aboutBtn.addEventListener('click', () => {
